@@ -7,8 +7,7 @@
 
 ## makeCacheMatrix: create a matrix, which supports get, set,
 ##    setInverse, getInverse
-## cacheSolve: "calculate" inverse of the input by recalling cache
-##    or calculate it on the fly
+
 
 ## Write a short comment describing this function
 ## This function contains 4 sub-components
@@ -32,6 +31,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## cacheSolve: "calculate" inverse of the input by recalling cache
+##    or calculate it on the fly
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
